@@ -34,6 +34,11 @@ npm run dev
 4. **Detect** — finds repeated stems within the proximity window and assigns severity by distance
 5. **Banned words** — scans all tokens against a configurable banned-words list
 
+## Acknowledgments
+
+- Synonym data provided by the [Datamuse API](https://www.datamuse.com/api/)
+- Stemming via [stemmer](https://github.com/words/stemmer) (Porter Stemmer, MIT)
+
 ## License
 
 MIT
