@@ -54,5 +54,5 @@ export const DEFAULT_STOPWORDS = new Set([
   "let's", "maybe", "something", "nothing", "everything", "anything",
   "someone", "everyone", "anyone", "nobody",
   "would've", "could've", "should've", "might've", "must've",
-  "would'nt", "that'll", "there'll", "who'll",
+  "that'll", "there'll", "who'll",
 ]);

@@ -7,7 +7,7 @@ import { stemmer } from 'stemmer';
  */
 export function addStems(tokens) {
   for (const token of tokens) {
-    token.stem = stemmer(token.word);
+    token.stem = stemmer(token.word.replace(/'\w+$/, ''));
   }
   return tokens;
 }
